@@ -2,6 +2,9 @@
 
 A dynamic **Streamlit dashboard** that fetches live cryptocurrency data from the **CoinGecko API**, cleans it, and visualizes key metrics in an interactive, mobile‑friendly web app.
 
+🚀 Live Demo: [bs-crypto-analysis.streamlit.app](https://bs-crypto-analysis.streamlit.app/)
+
+
 ---
 
 ## 🚀 Features

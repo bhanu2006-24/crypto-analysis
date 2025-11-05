@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 import requests
-from datetime import datetime
+from datetime import datetime , UTC
 
 # ------------------------------
 # PAGE CONFIG
@@ -304,4 +304,4 @@ with tab_table:
 # FOOTER
 # ------------------------------
 st.divider()
-st.caption(f"Last refreshed: {datetime.utcnow().strftime('%Y-%m-%d %H:%M:%S')} UTC • Data is live per run • Built for scale and clarity.")
+st.caption(f"Last refreshed: {datetime.now(UTC).strftime('%Y-%m-%d %H:%M:%S')} UTC • Data is live per run • Built for scale and clarity.")
