@@ -44,7 +44,6 @@ A dynamic **Streamlit dashboard** that fetches live cryptocurrency data from the
 ### Full Dataset Table
 ![Dataset Table](assets/dataset_table.png)
 
-*(Replace these with actual screenshots saved in an `assets/` folder.)*
 
 ---
 
